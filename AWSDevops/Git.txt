@@ -1,0 +1,42 @@
+Version control system.
+
+git init -> to initialise git
+git status -> to know untracked files
+git add . -> to add files to staging area
+git commit -m "hsgdhgdhgs" -> 
+git remote add origin htpps://....
+git push -u orgin main/master 
+git restore --staged filename.txt -> to restore files in staged area
+
+git log ->logs
+git reset <commit id> -> reset the files before commits to the given commit id
+git stash -> temporary storage memory iof files avaianle in staging area.
+git stash pop -> rolls back stash files to staging area wihtouh having copy in stash
+git stash apply -> cppy will be there in stash
+
+fork -> copied others repo
+clone -> downloads code to local [https(has to give password) , ssh(has to give public key)]
+git  upstream -> where you cloned from (the origin)(others repo)
+git pull -> fetch and download content from a remote repository
+create different pull requests from different branches for different changes.
+nevber commit on main branch.
+git sqaush -> combine multiple commits into one
+git rebase ->
+pick and squash
+sqaush=combine sqaushes and merge in above pick
+
+merge conflicts -> we have to resolve it manually.
+git diff -> compares changes
+
+Git vs GitHub ->
+Git: distributed version control sys. open source
+Git Hub: usability, issues, commneting, reviewing,project managemaent.(additional features to Git)
+          distrubuted sys to have code in repos.
+		
+Braches:
+		master/main : has main code. cpde will test here.
+		feature: will have separate code for sinlge feature and merge to main/master to get test and ready to deploy.
+		release : from release we will deploy app.
+		hot fix : any bugs that need to be resolve ASAP.
+		
+		
